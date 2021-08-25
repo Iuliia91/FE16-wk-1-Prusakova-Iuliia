@@ -1,0 +1,62 @@
+.pricing {
+  background-color: #e5e5e5;
+  background-size: contain;
+}
+
+/*titel*/
+.pricing_titel {
+  font-weight: 409px;
+  text-align: center;
+  font-family: Raleway;
+  size: 36px;
+  text-transform: uppercase;
+  padding: 80px 0px 36px;
+}
+
+.border {
+  border-bottom: 1px solid #e72424;
+}
+
+.pricing_text {
+  font-family: Open Sans;
+  size: 14px;
+  text-align: center;
+  color: #86878b;
+  padding: 34px 0px 64px;
+}
+
+/*flex*/
+
+.pricing_flex {
+  /*display: flex;
+  text-align: center;*/
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pricing_box1,
+.pricing_box2,
+.pricing_box3 {
+  width: 340px;
+  height: 50px;
+  border-color: #e5e5e5;
+}
+
+.item {
+  font-family: Open Sans;
+  list-style-type: none;
+  size: 14px;
+  color: #86878b;
+}
+
+.pricing_box2_titel,
+.pricing_box3_titel,
+.pricing_box1_titel {
+  font-family: Open Sans;
+  size: 20px;
+  font-weight: 700;
+}
