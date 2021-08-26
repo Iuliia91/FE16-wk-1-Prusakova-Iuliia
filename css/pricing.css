@@ -1,14 +1,17 @@
 .pricing {
+  height: 822px;
   background-color: #e5e5e5;
-  background-size: contain;
+  background-size: cover;
 }
 
 /*titel*/
 .pricing_titel {
-  font-weight: 409px;
+  font-weight: normal;
+  line-height: 42px;
   text-align: center;
   font-family: Raleway;
-  size: 36px;
+  font-size: 36px;
+  color: #212121;
   text-transform: uppercase;
   padding: 80px 0px 36px;
 }
@@ -17,7 +20,7 @@
   border-bottom: 1px solid #e72424;
 }
 
-.pricing_text {
+.pricing_subtitel {
   font-family: Open Sans;
   size: 14px;
   text-align: center;
@@ -28,35 +31,81 @@
 /*flex*/
 
 .pricing_flex {
-  /*display: flex;
-  text-align: center;*/
-  border: 1px solid black;
   display: flex;
-  flex-direction: row;
+
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 150px;
+  align-content: center;
 }
 
-.pricing_box1,
-.pricing_box2,
-.pricing_box3 {
+.pricing_box_titel {
+  font-family: Open Sans;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
   width: 340px;
   height: 50px;
-  border-color: #e5e5e5;
+  border-bottom: 2px solid #86878b;
 }
 
-.item {
-  font-family: Open Sans;
-  list-style-type: none;
-  size: 14px;
+.pricing_box_subtitel {
+  font-family: 'Raleway';
+  width: 340px;
+  height: 100px;
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  color: white;
+  background-color: #333333;
+  border-bottom: 2px solid #86878b;
+}
+
+.pricing_box_text1,
+.pricing_box_text3 {
+  background-color: #333333;
+}
+
+.pricing_box_text2 {
+  background-color: #d98943;
+}
+
+.pricing_box_text1,
+.pricing_box_text2,
+.pricing_box_text3 {
+  width: 340px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 800;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing_box_item {
+  width: 340px;
+  height: 40px;
   color: #86878b;
-}
-
-.pricing_box2_titel,
-.pricing_box3_titel,
-.pricing_box1_titel {
-  font-family: Open Sans;
-  size: 20px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  list-style-type: none;
+  border-bottom: 2px solid #e5e5e5;
 }
