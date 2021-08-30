@@ -1,0 +1,62 @@
+.axure_titel {
+  font-family: 'Raleway' sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding-top: 58px;
+}
+
+.axure_titel::after {
+  content: '';
+  background-color: red;
+  width: 64px;
+  height: 2px;
+  display: block;
+  margin: auto;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.axure_titel:hover {
+  border: 1px solid blue;
+  margin: 42px 448px;
+  text-decoration: underline 1px solid blue;
+}
+
+.axure_text {
+  font-family: 'Raleway' sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  margin-top: 34px;
+  color: #ffffff;
+  padding-bottom: 68px;
+}
+
+.axure {
+  background-image: url('/img/background\ 1.png');
+  background-color: red;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1170px;
+  margin: auto;
+  padding-bottom: 49px;
+}
+
+.axure_buttom {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  border: 3px solid red;
+  padding: 11px 26px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  width: 135px;
+}
