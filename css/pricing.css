@@ -1,5 +1,4 @@
 .pricing {
-  height: 822px;
   background-color: #e5e5e5;
   background-size: cover;
 }
@@ -16,8 +15,18 @@
   padding: 80px 0px 36px;
 }
 
-.border {
-  border-bottom: 1px solid #e72424;
+.pricing_titel + .pricing_subtitel:hover {
+  text-decoration: underline 2px solid blue;
+}
+
+.pricing_titel:after {
+  content: '';
+  height: 2px;
+  width: 64px;
+  display: block;
+  margin: auto;
+  margin-top: 34px;
+  background-color: red;
 }
 
 .pricing_subtitel {
@@ -32,20 +41,18 @@
 
 .pricing_flex {
   display: flex;
-
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 150px;
   align-content: center;
+  padding-bottom: 80px;
 }
 
-.pricing_box_titel {
+.pricing_flex_box_titel {
   font-family: Open Sans;
   color: white;
   font-size: 20px;
   font-weight: bold;
-  line-height: 27px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,12 +62,16 @@
   border-bottom: 2px solid #86878b;
 }
 
-.pricing_box_subtitel {
+.pricing_flex_box_titel:hover {
+  border: 1px solid blue;
+  text-decoration: underline 1px solid blue;
+}
+
+.pricing_flex_box_subtitel {
   font-family: 'Raleway';
   width: 340px;
   height: 100px;
   font-size: 35px;
-  line-height: 41px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -71,18 +82,23 @@
   border-bottom: 2px solid #86878b;
 }
 
-.pricing_box_text1,
-.pricing_box_text3 {
+.pricing_flex_box_subtitel:hover {
+  border: 1px solid blue;
+  text-decoration: underline 1px solid blue;
+}
+
+.pricing_flex_box_text1,
+.pricing_flex_box_text3 {
   background-color: #333333;
 }
 
-.pricing_box_text2 {
+.pricing_flex_box_text2 {
   background-color: #d98943;
 }
 
-.pricing_box_text1,
-.pricing_box_text2,
-.pricing_box_text3 {
+.pricing_flex_box_text1,
+.pricing_flex_box_text2,
+.pricing_flex_box_text3 {
   width: 340px;
   height: 50px;
   color: rgba(255, 255, 255, 0.5);
@@ -95,7 +111,21 @@
   justify-content: center;
 }
 
-.pricing_box_item {
+.pricing_flex_box_text1:hover {
+  border: 1px solid blue;
+  text-decoration: underline 1px solid blue;
+}
+
+.pricing_flex_box_text2:hover {
+  border: 1px solid blue;
+  text-decoration: underline 1px solid blue;
+}
+.pricing_flex_box_text3:hover {
+  border: 1px solid blue;
+  text-decoration: underline 1px solid blue;
+}
+
+.pricing_flex_box_list_item {
   width: 340px;
   height: 40px;
   color: #86878b;
@@ -108,4 +138,9 @@
   background: #ffffff;
   list-style-type: none;
   border-bottom: 2px solid #e5e5e5;
+}
+
+.pricing_flex_box_list_item:hover {
+  border: 1px solid blue;
+  text-decoration: underline 1px solid blue;
 }

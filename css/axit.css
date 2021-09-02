@@ -1,0 +1,241 @@
+.axit_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.axit_header_nav {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 108px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.axit_header_logo {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-left: 110px;
+}
+
+.logo {
+  color: #ec7979;
+}
+
+.axit_header_nav_list {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 0px 24px;
+  /* font-size: 15px;
+  text-transform: capitalize;*/
+}
+
+/*MAIN*/
+
+.axit_main {
+  background-image: url('/img/background-1\ 1.png');
+  background-color: tomato;
+  display: flex;
+  justify-content: space-around;
+  background-size: cover;
+  position: relative;
+}
+
+.axit_main::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.axit_main_sacion_header_artical {
+  font-family: 'Roboto' sans-serif;
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  margin: 109px 0px 34px;
+  position: relative;
+  z-index: 1;
+}
+
+.artical_color {
+  color: #ec7979;
+}
+
+.axit_main_sacion_div_subartical {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 71px;
+  position: relative;
+  z-index: 1;
+}
+
+.axit_main_sacion_div_text {
+  font-family: 14px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.axit_main_sacion_bottom_item {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 15px;
+  color: white;
+  border: 1px solid white;
+  padding: 11px 27px;
+  margin-bottom: 112px;
+  position: relative;
+  z-index: 1;
+}
+
+/*axit_main_sacion_left*/
+
+.axit_main_sacion_header_artical {
+  font-family: 'Roboto' sans-serif;
+  font-size: 60px;
+}
+.free {
+  text-transform: uppercase;
+  color: #ec7979;
+}
+
+/*axit_main_sacion_right*/
+
+.axit_main_sacion_right {
+  display: block;
+  background-color: white;
+  width: 370px;
+  height: 370px;
+  position: relative;
+  z-index: 1;
+  border-radius: 2%;
+  margin-top: 111px;
+}
+
+.axit_main_sacion_right_header {
+  display: inline-block;
+  width: 370px;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: capitalize;
+  font-family: 'Open Sant' sans-serif;
+  font-size: 20px;
+  padding: 16px 0px 16px;
+}
+
+#axit_main_sacion_right_form {
+  display: inline-block;
+  width: 370px;
+}
+
+#axit_main_sacion_right_form_item {
+  outline: none;
+  display: inline-block;
+  margin: 0 auto;
+  border: 0;
+  border-bottom: 1px solid #bdbdbd;
+  padding-top: 38px;
+}
+
+/*FOOTER*/
+
+.axit_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.axit_footer_text {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0px 17px 111px;
+  /*margin: 14px 111px 17px;*/
+}
+
+.axit_footer_text_titel {
+  display: inline-block;
+  font-family: 'Open Sans' sans-serif;
+  font-size: 20px;
+  padding-bottom: 14px;
+}
+.axit_footer_text_text {
+  display: inline-block;
+  font-size: 14px;
+  color: #bdbdbd;
+  width: 365px;
+  margin-right: 112px;
+}
+
+.axit_footer {
+  background-color: #f8efef;
+}
+
+.axit_footer_nav {
+  display: inline-block;
+  font-size: 34.5px;
+  color: #bdbdbd;
+  margin-right: 111px;
+}
+
+.instag {
+  transition-duration: 2s;
+}
+
+.instag:hover {
+  transform: rotate(45deg);
+  color: red;
+  transition-duration: 2s;
+}
+
+.facebook,
+.twitter,
+.google,
+.pinter,
+.instag,
+.stumbl,
+.wifi {
+  display: inline-block;
+  margin-left: 25px;
+}
+.facebook {
+  transition-duration: 2s;
+}
+.facebook:hover {
+  display: inline-block;
+  transform: scale(2);
+  color: blue;
+  transition-duration: 2s;
+}
+
+.twitter:hover {
+  position: relative;
+  color: aqua;
+  transform: rotate(360deg);
+  transition-duration: 2s;
+}
+
+.stumbl:hover {
+  transform: skew(5deg, 10deg);
+  color: coral;
+}
+
+.wifi {
+  transform-origin: top bottom;
+  transition-duration: 2s;
+}
+
+.wifi:hover {
+  transform: rotate(180deg);
+  transition-duration: 2s;
+}
+
+.pinter:hover {
+  transform: translate(-40px -100px);
+}
