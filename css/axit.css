@@ -1,3 +1,5 @@
+/*HEADER*/
+
 .axit_header {
   display: flex;
   justify-content: space-between;
@@ -25,12 +27,39 @@
 }
 
 .axit_header_nav_list {
-  text-decoration: none;
-  color: white;
   display: inline-block;
+  padding: 25px 0px;
+  color: white;
+}
+
+.list {
+  color: white;
+  display: inline;
   margin: 0px 24px;
-  /* font-size: 15px;
-  text-transform: capitalize;*/
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.menu_link {
+  color: white;
+}
+
+/*animation*/
+/*.menu_link:nth-child(1):hover*/
+.axit_header_nav_list_features :hover {
+  /*width: 80px;*/
+  border-bottom: 1px solid blue;
+  animation: line 5s;
+  transition-duration: 7s;
+}
+
+@keyframes line {
+  0% {
+    left: 0;
+  }
+  50% {
+    transform: translateX(55px);
+  }
 }
 
 /*MAIN*/
@@ -42,6 +71,7 @@
   justify-content: space-around;
   background-size: cover;
   position: relative;
+  padding-bottom: 120px;
 }
 
 .axit_main::after {
@@ -112,7 +142,6 @@
   display: block;
   background-color: white;
   width: 370px;
-  height: 370px;
   position: relative;
   z-index: 1;
   border-radius: 2%;
@@ -137,11 +166,27 @@
 
 #axit_main_sacion_right_form_item {
   outline: none;
-  display: inline-block;
   margin: 0 auto;
   border: 0;
   border-bottom: 1px solid #bdbdbd;
+  width: 263px;
+  padding: 15px;
   padding-top: 38px;
+  margin: 0px 59px;
+}
+
+#axit_main_sacion_right_form_bottom {
+  outline: none;
+  border: 0;
+  border-radius: 2%;
+  color: white;
+  font-family: 'Open Sans' sans-serif;
+  font-size: 15px;
+  width: 370px;
+  background-color: #ec7979;
+  text-align: center;
+  padding: 20px;
+  margin-top: 41px;
 }
 
 /*FOOTER*/
@@ -178,10 +223,16 @@
 }
 
 .axit_footer_nav {
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
   font-size: 34.5px;
   color: #bdbdbd;
   margin-right: 111px;
+}
+
+.axit_footer_nav_list_item {
+  display: inline;
+  margin-left: 25px;
 }
 
 .instag {
@@ -194,7 +245,7 @@
   transition-duration: 2s;
 }
 
-.facebook,
+/*.facebook,
 .twitter,
 .google,
 .pinter,
@@ -203,7 +254,7 @@
 .wifi {
   display: inline-block;
   margin-left: 25px;
-}
+}*/
 .facebook {
   transition-duration: 2s;
 }
