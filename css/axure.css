@@ -1,3 +1,10 @@
+.axure_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .axure_titel {
   font-family: 'Raleway' sans-serif;
   font-size: 36px;
@@ -6,7 +13,6 @@
   display: block;
   text-align: center;
   margin: auto;
-  width: 448px;
   padding-top: 58px;
   position: relative;
   z-index: 1;
@@ -40,10 +46,9 @@
 .axure {
   background-image: url('/img/background\ 1.png');
   background-color: red;
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  max-width: 1170px;
+  /*width: 100%;*/
+  display: flex;
   margin: auto;
   padding-bottom: 49px;
   position: relative;

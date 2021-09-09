@@ -1,22 +1,18 @@
 .pricing {
   background-color: #e5e5e5;
   background-size: cover;
+  /* width: 100%;
+  margin: auto;*/
 }
 
 /*titel*/
 .pricing_titel {
-  font-weight: normal;
-  line-height: 42px;
   text-align: center;
-  font-family: Raleway;
+  font-family: 'Raleway' sans-serif;
   font-size: 36px;
   color: #212121;
   text-transform: uppercase;
   padding: 80px 0px 36px;
-}
-
-.pricing_titel + .pricing_subtitel:hover {
-  text-decoration: underline 2px solid blue;
 }
 
 .pricing_titel:after {
@@ -46,6 +42,11 @@
   align-items: center;
   align-content: center;
   padding-bottom: 80px;
+  width: 100%;
+}
+
+.pricing_flex_box {
+  width: 30%;
 }
 
 .pricing_flex_box_titel {
@@ -57,20 +58,13 @@
   align-items: center;
   justify-content: center;
   background-color: #333333;
-  width: 340px;
-  height: 50px;
+  padding: 16px 132px;
   border-bottom: 2px solid #86878b;
-}
-
-.pricing_flex_box_titel:hover {
-  border: 1px solid blue;
-  text-decoration: underline 1px solid blue;
 }
 
 .pricing_flex_box_subtitel {
   font-family: 'Raleway';
-  width: 340px;
-  height: 100px;
+  padding: 26px 134px;
   font-size: 35px;
   font-weight: bold;
   display: flex;
@@ -80,11 +74,6 @@
   color: white;
   background-color: #333333;
   border-bottom: 2px solid #86878b;
-}
-
-.pricing_flex_box_subtitel:hover {
-  border: 1px solid blue;
-  text-decoration: underline 1px solid blue;
 }
 
 .pricing_flex_box_text1,
@@ -99,48 +88,24 @@
 .pricing_flex_box_text1,
 .pricing_flex_box_text2,
 .pricing_flex_box_text3 {
-  width: 340px;
-  height: 50px;
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
-  line-height: 19px;
-  font-weight: 800;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-}
-
-.pricing_flex_box_text1:hover {
-  border: 1px solid blue;
-  text-decoration: underline 1px solid blue;
-}
-
-.pricing_flex_box_text2:hover {
-  border: 1px solid blue;
-  text-decoration: underline 1px solid blue;
-}
-.pricing_flex_box_text3:hover {
-  border: 1px solid blue;
-  text-decoration: underline 1px solid blue;
+  padding: 17px 127px;
 }
 
 .pricing_flex_box_list_item {
-  width: 340px;
-  height: 40px;
+  padding: 10px 123px;
   color: #86878b;
   font-size: 14px;
   font-weight: normal;
-  line-height: 19px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #ffffff;
   list-style-type: none;
   border-bottom: 2px solid #e5e5e5;
-}
-
-.pricing_flex_box_list_item:hover {
-  border: 1px solid blue;
-  text-decoration: underline 1px solid blue;
 }

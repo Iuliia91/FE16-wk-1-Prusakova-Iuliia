@@ -1,3 +1,5 @@
+@import url('footer.css');
+@import url('contact.css');
 @import url('axit.css');
 @import url('axure.css');
 @import url('customer.css');
@@ -13,6 +15,18 @@
 }
 
 .container {
-  width: 1170px;
-  margin: auto;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+body {
+  max-width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 320px max-width:768px) {
+  .container {
+    width: 100%;
+  }
 }
