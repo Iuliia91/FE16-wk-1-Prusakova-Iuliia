@@ -1,8 +1,8 @@
 .pricing {
   background-color: #e5e5e5;
   background-size: cover;
-  /* width: 100%;
-  margin: auto;*/
+  width: 100%;
+  margin: auto;
 }
 
 /*titel*/
@@ -42,13 +42,13 @@
   align-items: center;
   align-content: center;
   padding-bottom: 80px;
-  width: 100%;
+  /*width: 100%;*/
+  margin: auto;
 }
 
-.pricing_flex_box {
-  width: 30%;
-}
-
+/*.pricing_flex_box {
+  width: 29%;
+}*/
 .pricing_flex_box_titel {
   font-family: Open Sans;
   color: white;

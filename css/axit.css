@@ -8,6 +8,7 @@
 .axit_header {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   align-items: center;
   background-color: black;
 }
@@ -17,30 +18,31 @@
   text-transform: uppercase;
   font-size: 30px;
   margin-left: 110px;
+  color: white;
 }
 
 .logo {
   color: #ec7979;
 }
-.axit_header_nav {
-  margin-right: 108px;
-  font-size: 15px;
-  text-transform: capitalize;
-}
 
+.axit_header_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px;
+}
 .axit_header_nav_list {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 25px 0px;
-  color: white;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-right: 50px;
 }
-
-.list {
+.menu_link {
+  display: inline-block;
+  margin-left: 50px;
   color: white;
-  display: inline;
-  margin: 0px 24px;
-  font-size: 15px;
+  /*width: 100%;*/
   text-transform: capitalize;
 }
 
@@ -64,12 +66,13 @@
 .axit_main {
   background-image: url('/img/background-1\ 1.png');
   background-color: tomato;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
-  justify-content: space-around;
   background-size: cover;
+  margin: auto;
   position: relative;
   padding-bottom: 120px;
-  width: 100%;
 }
 
 .axit_main::after {
@@ -78,14 +81,22 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  bottom: 0px;
-  right: 0px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.45);
+}
+
+.axit_main_sacion_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 111px;
 }
 
 .axit_main_sacion_header_artical {
   font-family: 'Roboto' sans-serif;
-  font-size: 60px;
+  font-size: 3, 75rem;
   color: white;
   text-transform: uppercase;
   margin: 109px 0px 34px;
@@ -137,9 +148,15 @@
 /*axit_main_sacion_right*/
 
 .axit_main_sacion_right {
-  display: block;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: white;
-  width: 370px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  max-width: 370px;
   position: relative;
   z-index: 1;
   border-radius: 2%;
@@ -148,7 +165,7 @@
 
 .axit_main_sacion_right_header {
   display: inline-block;
-  width: 370px;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
   text-transform: capitalize;
@@ -159,7 +176,7 @@
 
 #axit_main_sacion_right_form {
   display: inline-block;
-  width: 370px;
+  width: 100%;
 }
 
 #axit_main_sacion_right_form_item {
@@ -167,7 +184,7 @@
   margin: 0 auto;
   border: 0;
   border-bottom: 1px solid #bdbdbd;
-  width: 263px;
+  max-width: 263px;
   padding: 15px;
   padding-top: 38px;
   margin: 0px 59px;
@@ -180,7 +197,7 @@
   color: white;
   font-family: 'Open Sans' sans-serif;
   font-size: 15px;
-  width: 370px;
+  width: 100%;
   background-color: #ec7979;
   text-align: center;
   padding: 20px;
@@ -189,41 +206,50 @@
 
 /*FOOTER*/
 
+.axit_footer_background {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
 .axit_footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
+  background-color: #f8efef;
+  margin: auto;
+  width: 100%;
 }
 
 .axit_footer_text {
   display: flex;
   flex-direction: column;
+
+  align-items: flex-start;
   margin: 14px 0px 17px 111px;
+  /*width: 50%;
+
   /*margin: 14px 111px 17px;*/
 }
 
 .axit_footer_text_titel {
   display: inline-block;
   font-family: 'Open Sans' sans-serif;
-  font-size: 20px;
+  font-size: 1, 25rem;
   padding-bottom: 14px;
 }
 .axit_footer_text_text {
   display: inline-block;
-  font-size: 14px;
+  font-size: 0, 85rem;
   color: #bdbdbd;
   width: 365px;
   margin-right: 112px;
 }
 
-.axit_footer {
-  background-color: #f8efef;
-}
-
 .axit_footer_nav {
   display: flex;
   justify-content: space-around;
-  font-size: 34.5px;
+  font-size: 4, 25rem;
   color: #bdbdbd;
   margin-right: 111px;
 }
@@ -231,6 +257,7 @@
 .axit_footer_nav_list_item {
   display: inline;
   margin-left: 25px;
+  font-size: 2.125rem;
 }
 
 .instag {
