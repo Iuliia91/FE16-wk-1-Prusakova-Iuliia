@@ -1,3 +1,4 @@
+@import url('feautures.css');
 @import url('footer.css');
 @import url('contact.css');
 @import url('axit.css');
@@ -25,7 +26,7 @@ body {
   height: 100%;
 }
 
-@media (max-width: 980px) {
+/*@media (max-width: 980px) {
   .axit_main {
     flex-direction: column;
     align-items: center;
@@ -104,13 +105,13 @@ body {
   .flex-container {
     flex-direction: column;
   }
-  */ .customer_flex_item_second {
+  *//* .customer_flex_item_second {
     font-size: 10px;
   }
 
   /*awesome*/
 
-  .flex-container {
+  /*.flex-container {
     flex-direction: column;
   }
 }
