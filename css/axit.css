@@ -258,6 +258,7 @@
 .axit_footer_nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-size: 4, 25rem;
   color: #bdbdbd;
 }
