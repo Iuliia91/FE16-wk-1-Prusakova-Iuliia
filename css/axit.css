@@ -31,7 +31,7 @@
 
 .axit_header_item {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   flex-direction: row;
   margin: auto;
@@ -54,22 +54,18 @@
 
 .axit_header_nav_list {
   display: flex;
-  flex-direction: row;
   list-style-type: none;
+  width: 100%;
 }
 
 .axit_header_nav_list_item {
-  display: inline-block;
-
-  align-items: center;
-  margin-left: 0;
-  padding-left: 80px;
+  display: inline;
+  padding-left: 5rem;
   z-index: 1;
 }
 
 .menu_link {
   color: white;
-  z-index: 1;
   text-transform: capitalize;
 }
 
@@ -90,10 +86,6 @@
 .axit_main_all {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  /*display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  align-items: center;*/
   margin: auto;
   position: relative;
   padding-bottom: 120px;
@@ -101,12 +93,14 @@
   max-width: 1170px;
 }
 
-.axit_main_sacion_left {
-  display: flex;
+/*.axit_main_sacion_left {
+  display: grid;
+  /*grid-template-rows: 1fr 1fr;
+  /*display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /*margin-left: 111px;*/
-}
+  /*margin-left: 111px;
+}*/
 
 .axit_main_sacion_header_artical {
   font-family: 'Roboto' sans-serif;
@@ -143,7 +137,7 @@
   color: white;
   border: 1px solid white;
   padding: 11px 27px;
-  margin-bottom: 112px;
+  /*margin-bottom: 112px;*/
   position: relative;
   z-index: 1;
 }
@@ -170,7 +164,7 @@
   background-position: center;
   background-size: cover;
   margin: auto;
-  max-width: 370px;
+
   position: relative;
   z-index: 1;
   border-radius: 2%;
@@ -229,9 +223,9 @@
 
 .axit_footer_block {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-  flex-direction: row;
+  grid-template-columns: 1fr 1fr;
+  /*align-items: center;
+  flex-direction: row;*/
   background-color: #f8efef;
   margin: auto;
   z-index: 1;
@@ -266,12 +260,11 @@
   justify-content: space-around;
   font-size: 4, 25rem;
   color: #bdbdbd;
-  /*margin-right: 111px;*/
 }
 
 .axit_footer_nav_list_item {
   display: inline;
-  margin-left: 25px;
+  margin-left: 35px;
   font-size: 2.125rem;
   z-index: 1;
 }
