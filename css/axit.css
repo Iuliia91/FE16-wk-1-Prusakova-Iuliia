@@ -55,16 +55,23 @@
 .axit_header_nav_list {
   display: flex;
   list-style-type: none;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
   width: 100%;
+  /*padding-left: 0;*/
 }
 
 .axit_header_nav_list_item {
-  display: inline;
-  padding-left: 5rem;
+  /*display: inline;
+  margin-right: 5rem;*/
   z-index: 1;
 }
 
 .menu_link {
+  display: inline-block;
+  padding-right: 80px;
+  text-align: center;
   color: white;
   text-transform: capitalize;
 }
