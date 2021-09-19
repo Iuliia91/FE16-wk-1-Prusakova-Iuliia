@@ -35,7 +35,7 @@
 .tab {
   color: white;
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .pink {
@@ -66,4 +66,12 @@
   padding-bottom: 54px;
 }
 
-/*Pictures*/
+/*Customer*/
+
+.customer_flex {
+  flex-direction: row;
+}
+
+.customer_flex_item_second_text {
+  font-size: 10px;
+}

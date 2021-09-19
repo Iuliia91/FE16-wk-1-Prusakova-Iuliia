@@ -30,14 +30,15 @@
 }
 
 .axit_header_item {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  display: flex;
   flex-direction: row;
-  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  align-items: center;
   position: relative;
+  margin: 0px;
   padding: 20px 0px 20px;
-  max-width: 1170px;
 }
 
 .axit_header_logo {
@@ -91,8 +92,11 @@
 /*MAIN*/
 
 .axit_main_all {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  /*display: grid;
+  grid-template-columns: 2fr 1fr;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   margin: auto;
   position: relative;
   padding-bottom: 120px;
@@ -229,10 +233,9 @@
 }
 
 .axit_footer_block {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /*align-items: center;
-  flex-direction: row;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: #f8efef;
   margin: auto;
   z-index: 1;
