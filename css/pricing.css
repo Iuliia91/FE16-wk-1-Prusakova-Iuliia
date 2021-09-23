@@ -38,17 +38,48 @@
 .pricing_flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.pricing_flex_box_titel {
+  font-family: Open Sans;
+  color: white;
+  font-size: 20px;
+  flex-basis: 0;
+  background-color: black;
+  padding: 2vh 0;
+  text-align: center;
+  margin: auto;
+}
+
+.pricing_flex_box_subtitel {
+  font-family: 'Raleway' sans-serif;
+  padding: 4% 8%;
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  color: white;
+  background-color: #333333;
+  border-bottom: 2px solid #86878b;
+}
+
+/*.pricing_flex {
+  display: flex;
+
+  /*flex-wrap: wrap;*/
+/*justify-content: space-evenly;
   align-items: center;
   align-content: center;
   padding-bottom: 80px;
   /*width: 100%;*/
-  margin: auto;
+/* margin: auto;
 }
 
-/*.pricing_flex_box {
-  width: 29%;
-}*/
 .pricing_flex_box_titel {
   font-family: Open Sans;
   color: white;
@@ -60,12 +91,12 @@
   background-color: #333333;
   padding: 16px 132px;
   border-bottom: 2px solid #86878b;
-}
+}*/
 
 .pricing_flex_box_subtitel {
-  font-family: 'Raleway';
-  padding: 26px 134px;
-  font-size: 35px;
+  font-family: 'Raleway' sans-serif;
+  /*padding: 26px 134px;*/
+  font-size: 2, 1875rem;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -94,7 +125,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding: 17px 127px;
+  padding: 2vh 0;
 }
 
 .pricing_flex_box_list_item {
