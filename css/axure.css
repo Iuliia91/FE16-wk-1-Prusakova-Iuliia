@@ -79,4 +79,5 @@
   width: 135px;
   position: relative;
   z-index: 1;
+  box-shadow: -7px 7px #ec7979;
 }

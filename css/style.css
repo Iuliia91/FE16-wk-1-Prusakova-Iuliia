@@ -22,10 +22,11 @@
 }
 
 @media (max-width: 1200px) {
-  .axit_header_item,
   .axit_main,
   .axit_footer_section,
-  .axit_header_nav_list {
+  .axit_header_logo,
+  .feautures_content_tab,
+  .feautures_content_pictures {
     margin: 0 20px;
   }
 }
@@ -35,29 +36,11 @@
     display: none;
   }
 
-  .axit_header_nav_list {
-    font-size: 10px;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
+  .axit_header_block {
+    margin: auto;
     align-items: center;
-    justify-items: center;
+    /*width: 90%;*/
   }
-
-  .axit_header_nav_list_item {
-    margin: 0px;
-    padding-left: 10vw;
-    display: flex;
-    align-items: center;
-  }
-
-  .menu_link {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    align-items: center;
-  }
-
   .axit_main_all {
     flex-direction: column;
     padding-bottom: 50px;
@@ -70,7 +53,8 @@
   }
 
   .axit_main_sacion_right {
-    margin: 70px auto;
+    width: 50%;
+    margin: 50px auto;
   }
 
   /*pricing*/
@@ -99,34 +83,28 @@
   }
 
   .axit_header_nav_list_item {
-    margin: 0px;
-    padding-left: 10vw;
     display: flex;
-    align-items: center;
-  }
-
-  .menu_link {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
     align-items: center;
   }
 
   /*main*/
 
   .axit_main_sacion_right {
-    margin: 70px auto;
+    width: 50%;
   }
 
   /*footer*/
 
   .axit_footer_block {
     display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
   }
 
   .axit_footer_text {
     align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
   }
 
   .axit_footer_block {
@@ -141,31 +119,34 @@
   /*Feautures*/
 
   .feautures_content {
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-    margin: 0px;
-    padding: 0px;
-    align-items: center;
-    text-align: center;
-    /*flex-direction: column;*/
+    flex-direction: column;
+    
   }
 
   .feautures_content_tab {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    margin: 0px;
-    padding: 0px;
+    flex-direction: row;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    
+    
   }
 
   .feautures_content_middel {
-    align-items: center;
-    justify-items: center;
+    text-align: center;
     margin: 0px;
     padding: 0px;
     margin: auto;
     width: 90%;
+  }
+  .feautures_content_middel_buttom{
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .feautures_content_all_pic{
+    margin:0 auto;
   }
 
   /*awesome*/
@@ -198,5 +179,88 @@
 
   .customer_flex_item_block {
     width: 75%;
+  }
+
+  /*contact*/
+
+  #contact_main_form{
+    flex-direction: column;
+  }
+
+  .contact_main_form_left, .contact_main_form_right{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  #contact_main_form_right_item{
+    padding-bottom: 46px;
+  }
+}
+  
+
+
+@media (max-width: 720px) {
+  .axit_main_sacion_right {
+    width: 87%;
+    margin: 50px auto;
+  }
+
+  .axit_main_sacion_right_header {
+    font-size: 16px;
+  }
+
+  .axit_header_block {
+    width: 100%;
+  }
+
+  #axit_main_sacion_right_form_item {
+    padding-top: 30px;
+  }
+
+  .axit_main_sacion_right_clik {
+    margin-top: 20px;
+    padding: 18px;
+  }
+
+  .axit_main_sacion_div_subartical {
+    font-size: 24px;
+    width: 95%;
+    text-align: center;
+    
+  }
+
+  .axure_page{
+    margin: auto;
+    
+    text-align: center;
+    width: 90%;
+  }
+
+  .contact_header{
+    margin: auto;
+    
+    text-align: center;
+    width: 90%;
+  }
+
+
+@media (min-width: 320px) {
+  .feautures_content_tab_item{
+    padding: 20px 20px;
+  }
+
+  .pricing_flex{
+    margin: auto;
+    width: 85%;
+  }
+
+  .pricing_flex_box_list_item{
+    padding: 10px 90px;
+  }
+
+  .customer_subtitel{
+    width: 80%;
+    margin: auto;
   }
 }

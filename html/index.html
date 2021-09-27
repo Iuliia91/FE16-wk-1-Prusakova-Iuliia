@@ -26,7 +26,7 @@
        <header class="axit_header">  
           <div class="axit_header_item">
           <div class="axit_header_logo"><p>ax<snap class="logo">it</snap></p></div>
-          
+          <div class="axit_header_block">
           <nav class="axit_header_nav">
             <ul class="axit_header_nav_list">
               <li class="axit_header_nav_list_item"><a class="menu_link" href="#">feautures</a></li> 
@@ -38,7 +38,7 @@
             </ul>
             
                </nav>
-             
+             </div>
                
             </div>
           
@@ -62,8 +62,9 @@
                <input type="text" id="axit_main_sacion_right_form_item" placeholder="Name"></input><br>
                <input type="text" id="axit_main_sacion_right_form_item" placeholder="Email"></input><br>
                <input type="text" id="axit_main_sacion_right_form_item" placeholder="Password"></input>
-               <input type="submit" id="axit_main_sacion_right_form_bottom" value="Get Started"></input>
+              
              </form>
+             <div><button class="axit_main_sacion_right_clik">Get Started</button></div>
              </div>
            </sacion>
            </div>
@@ -108,7 +109,7 @@
           <main class="feautures_content">
             
             <section class="feautures_content_tab">
-              <div class="feautures_content_tab_item pink"><a href="#" class="tab">Tab 1</a></div>
+              <div class="feautures_content_tab_item"><a href="#" class="tab">Tab 1</a></div>
               <div class="feautures_content_tab_item"><a href="#" class="tab">Tab 2</a></div>
               <div class="feautures_content_tab_item"><a href="#" class="tab">Tab 3</a></div>
             
@@ -119,7 +120,7 @@
            
             </div>
             
-            <div class="feautures_content_middel_buttom"><button>Download</button></div>
+            <div><button class="feautures_content_middel_buttom">Download</button></div>
           </section>
             
             <section class="feautures_content_all_pic">
@@ -145,11 +146,8 @@
         <main class="flex-container">
           <section class="flex-container_sect">
           <div class="flex_item">
-            <img
-              class="flex_item_img"
-              src="../img/noname image.png"
-              alt="label"
-            />
+            <div class="flex_item_block1"></div>
+           
             <h3 class="flex_item_header">Thoughtful Design</h3>
             <p class="flex_item_text">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptate minima facere animi, eaque autem amet facilis asperiores quod esse?
@@ -158,11 +156,8 @@
         </section>
         <section class="flex-container_sect">
           <div class="flex_item">
-            <img
-              class="flex_item_img"
-              src="../img/noname image (2).png"
-              alt="label"
-            />
+            <div class="flex_item_block2"></div>
+            
             <h3 class="flex_item_header">Well Crafted</h3>
             <p class="flex_item_text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, porro a quaerat nemo corrupti nesciunt illum laboriosam provident maiores. Numquam.
@@ -170,11 +165,8 @@
           </div></section>
           <section class="flex-container_sect">
           <div class="flex_item">
-            <img
-              class="flex_item_img"
-              src="../img/noname image (1).png"
-              alt="label"
-            />
+            <div class="flex_item_block3"></div>
+            
             <h3 class="flex_item_header">Easy to Customize</h3>
             <p class="flex_item_text">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad odit consequuntur et a omnis nemo, quam aliquid. Sapiente, id reprehenderit?
@@ -198,7 +190,7 @@
               <div class="pricing_flex_box">
                   <div class="pricing_flex_box_titel"><h2>Basik</h2></div>
                   <div class="pricing_flex_box_subtitel"><p>$10</p></div>
-                  <div class="pricing_flex_box_text1" ><p>Free for life </p></div>
+                  <div class="pricing_flex_box_text" ><p>Free for life </p></div>
                   <ul class="pricing_flex_box_list">
                     <li class="pricing_flex_box_list_item">1 gb of space</li>
                     <li class="pricing_flex_box_list_item">1 gb of space</li>
@@ -213,7 +205,7 @@
               <div class="pricing_flex_box">
                 <div class="pricing_flex_box_titel"><h2>Optima</h2></div>
                   <div class="pricing_flex_box_subtitel"><p>$20</p></div>
-                  <div class="pricing_flex_box_text2"><p>Free for life</p></div>
+                  <div class="pricing_flex_box_text"><p>Free for life</p></div>
                   <ul class="pricing_flex_box_list">
                     <li class="pricing_flex_box_list_item">1 gb of space</li>
                     <li class="pricing_flex_box_list_item">1 gb of space</li>
@@ -228,7 +220,7 @@
               <div class="pricing_flex_box">
                 <div class="pricing_flex_box_titel"><h2>Pro</h2></div>
                   <div class="pricing_flex_box_subtitel"><p>$30</p></div>
-                  <div class="pricing_flex_box_text3"><p>Free for life</p></div>
+                  <div class="pricing_flex_box_text"><p>Free for life</p></div>
                   <ul class="pricing_flex_box_list">
                     <li class="pricing_flex_box_list_item">1 gb of space</li>
                     <li class="pricing_flex_box_list_item">1 gb of space</li>
@@ -331,10 +323,12 @@
               
               <form id="contact_main_form" action="#" method="POST">
                 <div class="contact_main_form_left">
+                  
                  <input id="contact_main_form_left_item" type="text" placeholder="Name">
                  <input id="contact_main_form_left_item" type="text" placeholder="Email">
                  <input id="contact_main_form_left_item" type="text" placeholder="Password">
                  </div>
+                 
                  <div class="contact_main_form_right">
                  <textarea id="contact_main_form_right_item" type="text" placeholder="Message"></textarea>
                  </div>
@@ -342,7 +336,7 @@
                
                </main>
                <div class="contact_button">
-               <button type="submit" name="contact_main_form_button">Send message</button>        
+               <button type="submit" name="contact_main_form_button" class="contact_main_form_button">Send message</button>        
              </div>
             
            </div>

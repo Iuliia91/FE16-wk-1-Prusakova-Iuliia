@@ -10,7 +10,7 @@
   font-weight: normal;
   text-align: center;
   text-transform: uppercase;
-  padding: 80px;
+  padding-top: 80px;
 }
 
 .customer_titel::after {
@@ -21,6 +21,7 @@
   margin: auto;
   margin-top: 34px;
   background-color: red;
+  margin-bottom: 34px;
 }
 
 .customer_subtitel {
@@ -33,7 +34,7 @@
 
 .customer_flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
   padding-bottom: 80px;
@@ -130,4 +131,8 @@
   text-transform: capitalize;
 
   display: block;
+}
+
+.customer_flex_item_text {
+  padding: 13px;
 }

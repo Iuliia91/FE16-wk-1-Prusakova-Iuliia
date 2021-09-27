@@ -1,22 +1,18 @@
-.awesome{
+.awesome {
   width: 100%;
   margin: auto;
 }
 
-
 /*container1*/
 
-.awesome_titel{
-  display: flex ;
+.awesome_titel {
+  display: flex;
   align-items: center;
   flex-direction: column;
-  
 }
 
-
-
 .awesome_header {
-  font-family: "Raleway" , sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 36px;
   font-weight: normal;
   text-transform: uppercase;
@@ -24,20 +20,16 @@
   padding: 100px 0 25px;
 }
 
-
-
-
-.awesome_header::after{
-content: "";
-width: 64px;
-height: 2px;
-background-color: #D98943;
-display: block;
-margin: auto;
-margin-top: 25px;
-
+.awesome_header::after {
+  content: '';
+  width: 64px;
+  height: 2px;
+  background-color: #d98943;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
 }
-  
+
 .awesome_text {
   text-align: center;
   font-size: 14px;
@@ -52,43 +44,63 @@ margin-top: 25px;
   display: flex;
   text-align: center;
   justify-content: space-around;
-   align-items: center;
+  align-items: center;
   padding-bottom: 109px;
-  
-  }
+}
 
-  .flex-container_sect{
-    width: 32%;
-  }
- 
-  
+.flex-container_sect {
+  width: 32%;
+}
 
 /*img*/
 
-  .flex_item_img{
-  border: 1px solid #d98943;
-  border-radius: 50%;
-  padding: 10px;
+.flex_item_block1 {
+  background-image: url(../img/lamp.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
   width: 50px;
   height: 50px;
-  
-  }
+  border: 1px solid #d98943;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
 
- 
+.flex_item_block2 {
+  background-image: url(../img/keyboard.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d98943;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.flex_item_block3 {
+  background-image: url(../img/lightning.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d98943;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
 /*header*/
 
 .flex_item_header {
- 
   font-size: 20px;
   padding: 15px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 /*TEXT*/
 
-.flex_item_text{
+.flex_item_text {
   font-size: 14px;
-
-
-  
-
+}
